@@ -12,7 +12,7 @@ In the current era of streaming services, music released on physical formats lik
 
 I fetched data from the Discogs API using Discogs’ proprietary client, **discogs_client**. Because the API’s request limits and automatic pagination made it near-impossible to get bulk data on all pop releases, I opted to separate my requests into manageable chunks, those being six sub-genres that I felt encompassed most pop music on Discogs: alt-pop, indie pop, synth-pop, dance-pop, europop, and ballad. Additionally, dividing up the requests was beneficial in refining the data, as the definition of "pop" can be quite broad, which is especially evident in the community cataloging practiced on Discogs. 
 
-I created a workflow to reuse for each year from 2015 to 2025 to fetch this data on the six subgenres. **Pandas** was utilized to create data frames for each subgenre, as well as to merge these data frames into one with concat(). These merged dataframes were then saved as separate CSVs, one for each year, and those CSVs were merged, again using concat(). **OpenRefine** was used to clean the data's formatting and remove duplicate rows. From the cleaned CSVs, I again used **Pandas** to create separate data frames for visualization with **MatLibPlot** and **Seaborn**.  
+I created a workflow to reuse for each year from 2015 to 2025 to fetch this data on the six subgenres. **Pandas** was utilized to create data frames for each subgenre, as well as to merge these data frames into one with concat(). These merged dataframes were then saved as separate CSVs, one for each year, and those CSVs were merged, again using concat(). **OpenRefine** was used to clean the data's formatting and remove duplicate rows. From the cleaned CSVs, I again used **Pandas** to create separate data frames based on format and label type for visualization with **MatLibPlot** and **Seaborn**. Prior to visualizing the data, the label type dataframes were saved as CSVs and cleaned further in OpenRefine. 
 
 ## Further Uses:
 
@@ -24,9 +24,9 @@ In the future, this project could be built upon to examine further developments 
 
 - The CSV-years folder contains the 11 CSVs that were created from Discogs_pop.ipynb (Pop2015.csv, Pop2016.csv, Pop2017.csv, etc.), as well as Pop2025_cleaned.csv, which was used for visualization.
 
-- The CSV-labels folder contains both the initial and cleaned CSVs used to create label-based dataframes for visualization for Major_releases.csv, Major_releases_cleaned.csv, Self_released.csv, and Self_released_cleaned.csv. The file sizes of Independent_releases.csv and Independent_releases_cleaned.csv were too large, and so they've been compressed into the zip files independent_releases.csv.gz and independent_releases_cleaned.csv.gz respectively.  
-
 - Pop_cleaned.csv.gz is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned. The file size is too large for the GitHub repository, so it has been compressed into a zip file. 
+
+- The CSV-labels folder contains both the initial and cleaned CSVs used to create label-based dataframes for visualization for Major_releases.csv, Major_releases_cleaned.csv, Self_released.csv, and Self_released_cleaned.csv. The file sizes of Independent_releases.csv and Independent_releases_cleaned.csv were too large, and so they've been compressed into the zip files independent_releases.csv.gz and independent_releases_cleaned.csv.gz respectively.  
 
 - Dataframe_visualization.ipynb contains the code used to create smaller dataframes from the CSV for visualization, as well as the code for the final graphs.
 
