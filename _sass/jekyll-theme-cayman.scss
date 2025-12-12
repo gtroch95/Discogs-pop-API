@@ -64,7 +64,7 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: #8B4513;
   background-color: rgba(250, 44, 181, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
@@ -73,9 +73,9 @@ a {
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
   &:hover {
-    color: rgba(235, 0, 164, 0.8);
+    color: #F08080;
     text-decoration: none;
-    background-color: rgba(248, 151, 211, 0.74);
+    background-color: #F08080;
     border-color: rgba(0, 0, 0, 0.3);
   }
 
