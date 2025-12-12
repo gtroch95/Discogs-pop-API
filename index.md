@@ -22,9 +22,4 @@ These two graphs act as a comparison between Discogs data on label types. The fi
 
 These two graphs act as a comparison between data on format types. The first shows total releases across the past 10 years by format type, and the second shows Discogs community interest in 2025 releases by format type. Over the past 10 years, vinyl and CDs have traded places in terms of popularity, with vinyl production increasing rapidly before it began to decrease again in 2024. The amount of vinyl records being produced is mirrored in the 2025 community data from Discogs, as vinyl is by far the most popular format for pop record collectors. Cassettes trail far behind, but this data may look very different if another genre with a more storied DIY ethos was used, such as many subgenres of rock or electronic music.   
 
-## Reflection
-
-From this data, I cannot make explicit predictions about where pop music on physical formats is headed, or record collecting as a whole. 
-
-
 
