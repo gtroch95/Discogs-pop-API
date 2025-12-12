@@ -10,7 +10,9 @@ Over the course of this project, the Discogs API was used to fetch vinyl, CD, an
 
 ## Visualizations and Takeaways
 
-2015-2025 releases graph for overview
+![Total releases from 2015 to 2025](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/totalreleases.png)
+
+With this graph showing the past 10 years of physical pop music releases, we can see that
 
 2025 graphs (wants/haves)
 
