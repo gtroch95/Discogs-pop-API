@@ -22,9 +22,11 @@ In the future, this project could be built upon to examine further developments 
 
 - Discogs_pop.ipynb contains the initial code used to fetch data from Discogs, create and merge the separate subgenre data frames, and save the resulting dataframe to CSV.
 
-- Pop_2015.csv, Pop_2016.csv, Pop_2017.csv, etc… are the 11 CSVs that were created from Discogs_pop.ipynb.
+- In the CSV-years folder are the 11 CSVs that were created from Discogs_pop.ipynb (Pop2015.csv, Pop2016.csv, Pop2017.csv, etc.), as well as Pop2025_cleaned.csv, which was used for visualization.
 
-- Pop_cleaned.csv is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned. The file size is too large for the GitHub repository, but I'm looking for a workaround. 
+- In the CSV-labels folder are the intitial and cleaned CSVs used to create label-based dataframes for visualization (Major_releases.csv, Major_releases_cleaned.csv, Independent_releases.csv, Independent_releases_cleaned.csv, and Self_released.csv and Self_released_cleaned.csv).
+
+- Pop_cleaned.csv is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned. The file size is too large for the GitHub repository, but I'm looking for a workaround.
 
 - Dataframe_visualization.ipynb contains the code used to create smaller dataframes from the CSV for visualization, as well as the code for the final graphs.
 
