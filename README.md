@@ -6,9 +6,7 @@ This project examines the past 10 years of pop music physical releases on vinyl,
 
 ## Rationale Statement: 
 
-Streaming services are the main method by which people currently listen to music; nevertheless, there has remained a strong community of collectors of physical albums. This community has the potential to grow due to streaming and subscription fatigue, the desire for personal ownership, and nostalgia. Additionally, public awareness has developed around the poor compensation of artists by streaming services, which especially affects artists signed to smaller independent labels and those who are not signed at all; an increased interest in purchasing physical albums could tangibly affect these artists’ ability to make music. 
-  
-With these factors in mind, this project was undertaken to understand how physical pop record releases have developed over the past decade and where pop record collecting actually stands in 2025. Pop music in particular was chosen for this project because it moves with the trends and encompasses a wide diversity of artists, from the most commercially successful to the truly bedroom-produced.  
+In the current era of streaming services, music released on physical formats like vinyls, CDs, and cassettes feels antithetical to the way most people interact with music today. However, for smaller artists, the ability to make a living through music translates to touring, merch sales, and album sales, not streams. Issues of artist compensation by streaming services as well the ephemerality of and lack of personal ownership over streamed media makes physical media a potentially appealing alternative for music fans. Through this project, I aimed to visualize changes in record collecting over the past 10 years and provide a picture of what it looks like in its current state through the genre of pop music. Pop music in particular was chosen for this project because it moves with the trends, making it a good candidate for visualization. 
 
 ## Workflow:
 
@@ -22,10 +20,12 @@ In the future, this project could be built upon to examine further developments 
 
 ## Files:
 
-Discogs_pop.ipynb contains the initial code used to fetch data from Discogs, create and merge the separate subgenre data frames, and save the resulting dataframe to CSV
+- Discogs_pop.ipynb contains the initial code used to fetch data from Discogs, create and merge the separate subgenre data frames, and save the resulting dataframe to CSV.
 
-Pop_2015.csv, Pop_2016.csv, Pop_2017.csv, etc… are the 11 CSVs that were created from Discogs_pop.ipynb
+- Pop_2015.csv, Pop_2016.csv, Pop_2017.csv, etc… are the 11 CSVs that were created from Discogs_pop.ipynb.
 
-Pop_cleaned.csv is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned
+- Pop_cleaned.csv is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned. The file size is too large for the GitHub repository, but I'm looking for a workaround. 
 
-Dataframe_visualization.ipynb contains the code used to create smaller dataframes from the CSV for visualization, as well as the code for the graphs
+- Dataframe_visualization.ipynb contains the code used to create smaller dataframes from the CSV for visualization, as well as the code for the final graphs.
+
+- format_graph.png, label_graph.png, wantshaves_label.png, wantshaves_format.png, 2025_label.png, 2025_format.png, and totalreleases.png are the graphs created for this project.
