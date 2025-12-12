@@ -24,7 +24,7 @@ These two graphs act as a comparison between data on format types. The first sho
 
 <h2 style="text-align: center;">Takeaways</h2>
 
-Though the future of pop record collecting and music on physical formats cannot be predicted with this data, it seems that despite the production of physical music formats having decreased overall in the past two years, that does not necessarily mean that interest in those formats has decreased from record collectors. 
+Though the future of pop record collecting and music on physical formats cannot be predicted with this data, it seems that despite the production of physical music formats having decreased overall in the past two years, interest in those formats has not necessarily decreased from record collectors. 
 
 Additionally, as this project explored a very commercial genre, it would be interesting to examine other genres for differences. For example, in the pop data, cassettes trail far behind vinyls and CDs, but that would likely look quite different if a genre with a more storied DIY ethos was used, such as certain subgenres of rock or electronic music. 
 
