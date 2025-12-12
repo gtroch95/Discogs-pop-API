@@ -12,14 +12,21 @@ Specifically, the Discogs API was used to fetch vinyl, CD, and cassette release 
 
 ![Total releases from 2015 to 2025](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/totalreleases.png)
 
-With this graph showing the past 10 years of physical pop music releases, we see that releases of pop music on vinyl, CD, and cassette have decreased, with a noticeable drop in 2025.
+With this graph showing the past 10 years of physical pop music releases, we see that releases of pop music on vinyl, CD, and cassette slowly decreased until 2021, followed by an increase in 2022 and 2023 before decreasing once more from 2024 to 2025. 
+
+![Label graph](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/label_graph.png)
+![Format graph](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/format_graph.png)
+
+These two graphs act as a comparison between data on label types. The first shows total releases across the past 10 years by label type, and the second shows Discogs community interest in releases by label type. We see that the majority of physical pop releases have come from independent labels, but there is clearly more interest from the pop record collecting community in major label releases. 
+
+
 
 ![Wants and haves by label type](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/2025_label.png)
 ![Wants and haves by format type](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/2025_format.png)
 
-If we look at 2025, we see 
+If we look at data 2025, we see strong disparities between both label types and format types. The first graph representing community interest in physical pop releases shows that major label releases are the most popular with pop record collectors on Discogs, followed by releases from independent labels. 
 
-2025 graphs (wants/haves)
+In the graph showing interst in formats, vinyl is clearly the most popular. We see in the second graph that vinyl has grown in popularity as a format  having grown in popularity over the past 10 years. 
 
 Graphs by label / format
 
