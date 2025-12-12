@@ -6,8 +6,6 @@ layout: default
 
 ### Small image
 
-![Graph](/label_graph.png)
-
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
