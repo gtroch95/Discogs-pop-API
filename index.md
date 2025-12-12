@@ -8,11 +8,13 @@ For this project, the Discogs API was used to fetch vinyl, CD, and cassette rele
 
 <h2 style="text-align: center;">Visualizations</h2>
 
-![Total releases from 2015 to 2025](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/totalreleases.png)
+<center>![Total releases from 2015 to 2025](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/totalreleases.png)</center>
+
 With this graph showing the past 10 years of physical pop music releases, we see that releases of pop music on vinyl, CD, and cassette slowly decreased until 2021, followed by an increase in 2022 and 2023 before beginning to decrease once more in 2024. Per the Discogs data, of these releases, 26,859 were re-releases of older music, or 25.8%. In 2025 specifically, of 7,127 physical pop releases, 1,753 were re-releases, making that 24.5%. Therefore, the majority of pop music being released on vinyl, CD, and cassette is new, but there is still strong interest in older music. 
 
-![Label graph](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/label_graph.png)
+<center>![Label graph](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/label_graph.png)</center>
 ![Wants and haves by label type](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/2025_label.png)
+
 These two graphs act as a comparison between Discogs data on label types. The first shows total releases across the past 10 years by label type, and the second shows Discogs community interest in 2025 releases by label type. We see that the majority of physical pop releases have come from independent labels, but there is clearly more interest from the pop record collecting community in major label releases. 
 
 ![Format graph](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/format_graph.png)
