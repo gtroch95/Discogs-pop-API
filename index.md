@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## Introduction
-
 In the current era of streaming services, music released on physical formats like vinyls, CDs, and cassettes feels antithetical to the way most people interact with music today. However, for smaller artists, the ability to make a living through music translates to touring, merch sales, and album sales, not streams. Issues of abysmal artist compensation by major streaming services as well the ephemerality of streamed media and lack of personal ownership makes physical media a potentially appealing alternative for music fans. Through this project, I aimed to visualize changes in record collecting over the past 10 years and provide a picture of what it looks like in its current state using release data and community collecting data from the Discogs API.  
 
 Specifically, the Discogs API was used to fetch vinyl, CD, and cassette release data from major labels, independent labels, and unsigned artists from 2015-2025, alongside "want" and "have" data from Discogs community members pertaining to releases. Pop music was chosen for this project because it moves with the trends, making it a good candidate for visualization. Through visualizing the data, I hoped to showcase pop music collecting as a microcosm of physical music releases and record collecting in general. 
