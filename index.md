@@ -6,9 +6,7 @@ In the current era of streaming services, music released on physical formats lik
 
 Over the course of this project, the Discogs API was used to fetch vinyl, CD, and cassette release data from major labels, independent labels, and unsigned artists from 2015-2025. Pop music was chosen because it moves with the trends, making it a good candidate for visualization. Through visualizing the data, I hoped to understand how physical pop record releases have developed over the past decade and where pop record collecting actually stands in 2025. 
 
-![Label_graph](Discogs_pop_API/label_graph.png)
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Label_graph](https://github.com/gtroch95/Discogs-pop-API/blob/master/label_graph.png)
 
 
 ### Definition lists can be used with HTML syntax.
