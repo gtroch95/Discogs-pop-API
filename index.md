@@ -12,5 +12,9 @@ Over the course of this project, the Discogs API was used to fetch vinyl, CD, an
 
 ![Label_graph](https://github.com/gtroch95/Discogs-pop-API/blob/master/label_graph.png)
 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+From 2015-2025, 26,859 of releases were re-releases of older music. In 2025 specifically, 1,753 of releases were re-releases of older music. Therefore, the majority of music 
+
 
 
