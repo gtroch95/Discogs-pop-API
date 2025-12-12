@@ -24,9 +24,9 @@ In the future, this project could be built upon to examine further developments 
 
 - In the CSV-years folder are the 11 CSVs that were created from Discogs_pop.ipynb (Pop2015.csv, Pop2016.csv, Pop2017.csv, etc.), as well as Pop2025_cleaned.csv, which was used for visualization.
 
-- In the CSV-labels folder are the intitial and cleaned CSVs used to create label-based dataframes for visualization (Major_releases.csv, Major_releases_cleaned.csv, Independent_releases.csv, Independent_releases_cleaned.csv, and Self_released.csv and Self_released_cleaned.csv).
+- In the CSV-labels folder are the intitial and cleaned CSVs used to create label-based dataframes for visualization for Major_releases.csv, Major_releases_cleaned.csv, Self_released.csv, and Self_released_cleaned.csv. Independent_releases.csv and Independent_releases_cleaned.csv were too large, and so they've been compressed into the zip files independent_releases.csv.gz and independent_releases_cleaned.csv.gz respectively.  
 
-- Pop_cleaned.csv is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned. The file size is too large for the GitHub repository, but I'm looking for a workaround.
+- Pop_cleaned.csv.gz is the merged CSV of all 10 years that was created using OpenRefine, with formatting cleaned. The file size is too large for the GitHub repository, so it has been compressed into a zip file. 
 
 - Dataframe_visualization.ipynb contains the code used to create smaller dataframes from the CSV for visualization, as well as the code for the final graphs.
 
