@@ -10,7 +10,7 @@ Over the course of this project, the Discogs API was used to fetch vinyl, CD, an
 
 ## Visualizations and Takeaways
 
-![Label_graph](https://github.com/gtroch95/Discogs-pop-API/blob/master/label_graph.png)
+![Label_graph](https://raw.githubusercontent.com/gtroch95/Discogs-pop-API/master/label_graph.png)
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
