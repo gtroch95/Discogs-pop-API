@@ -8,6 +8,8 @@ layout: default
 
 ### Large image
 
+![Label_graph](Discogs_pop_API/label_graph.png)
+
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
