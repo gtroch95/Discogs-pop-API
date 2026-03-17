@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Exploring Pop Music Collecting through Discogs
+# Exploring Pop Music Collecting through Discogs
 
 ## Project Description:
 
