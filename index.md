@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
+## Project Description:
 
-In the current era of streaming services, music released on physical formats like vinyls, CDs, and cassettes feels antithetical to the way most people interact with music today. However, for smaller artists, the ability to make a living through music translates to touring, merch sales, and album sales, not streams. Issues of artist compensation by streaming services as well the ephemerality of and lack of personal ownership over streamed media makes physical media a potentially appealing alternative for music fans. Through this project, I aimed to visualize changes in record collecting over the past 10 years and provide a picture of what it looks like in its current state through the genre of pop music. 
+This project explores the past 10 years of pop music physical releases on vinyl, CD, and cassette using the Discogs API. The project visualizes changes over the past decade and uncovers current collector interest in a music-listening era dominated by streaming services.
 
-For this project, the Discogs API was used to fetch vinyl, CD, and cassette release data from major labels, independent labels, and unsigned artists from 2015-2025, alongside "want" and "have" data from Discogs community members pertaining to releases. Pop music was chosen because it moves with the trends, making it a good candidate for visualization. Through visualizing the data, I hoped to showcase pop music collecting as a microcosm of physical music releases and record collecting in general. 
+## Rationale Statement: 
+
+In the current era of streaming services, music released on physical formats like vinyls, CDs, and cassettes feels antithetical to the way most people interact with music today. However, for smaller artists, the ability to make a living through music translates to touring, merch sales, and album sales, not streams. Issues of artist compensation by streaming services as well the ephemerality of and lack of personal ownership over streamed media makes physical media a potentially appealing alternative for music fans. 
+
+For this project, the Discogs API was used to fetch vinyl, CD, and cassette release data from major labels, independent labels, and unsigned artists from 2015-2025, alongside "want" and "have" data from Discogs community members pertaining to releases. Through this project, I aimed to visualize changes in record collecting over the past 10 years and provide a picture of what it looks like in its current state through the genre of pop music. In creating visualizations of the data, I hoped to showcase pop music collecting as a microcosm of physical music releases and record collecting in general.
+
+## Workflow:
+
+I fetched data from the Discogs API using Discogs’ proprietary client, **discogs_client**. Because the API’s request limits and automatic pagination made it near-impossible to get bulk data on all pop releases, I opted to separate my requests into manageable chunks, those being six sub-genres that I felt encompassed most pop music on Discogs: alt-pop, indie pop, synth-pop, dance-pop, europop, and ballad. Additionally, dividing up the requests was beneficial in refining the data, as the definition of "pop" can be quite broad, which is especially evident in the community cataloging practiced on Discogs. 
+
+I created a workflow to reuse for each year from 2015 to 2025 to fetch this data on the six subgenres. **Pandas** was utilized to create data frames for each subgenre, as well as to merge these data frames into one with concat(). These merged dataframes were then saved as separate CSVs, one for each year, and those CSVs were merged, again using concat(). **OpenRefine** was used to clean the data's formatting and remove duplicate rows. From the cleaned CSVs, I again used **Pandas** to create separate data frames based on format and label type for visualization with **MatLibPlot** and **Seaborn**. Prior to visualizing the data, the label type dataframes were saved as CSVs and cleaned further in OpenRefine. 
 
 <h2 style="text-align: center;">Visualizations</h2>
 
@@ -22,9 +33,11 @@ These two graphs act as a comparison between Discogs data on label types. The fi
 
 These two graphs act as a comparison between data on format types. The first shows total releases across the past 10 years by format type, and the second shows Discogs community interest in 2025 releases by format type. Over the past 10 years, vinyl and CDs have traded places in terms of popularity, with vinyl production increasing rapidly before it began to decrease again in 2024. The amount of vinyl records being produced is mirrored in the 2025 community data from Discogs, as vinyl is by far the most popular format for pop record collectors.   
 
-<h2 style="text-align: center;">Takeaways</h2>
+<h2 style="text-align: center;">Takeaways and Future Applications</h2>
 
 Though the future of pop record collecting and music on physical formats cannot be predicted with this data, it seems that despite the production of physical music formats having decreased overall in the past two years, interest in those formats has not necessarily decreased from record collectors. 
 
 Additionally, as this project explored a very commercial genre, it would be interesting to examine other genres for differences. For example, in the pop data, cassettes trail far behind vinyls and CDs, but that would likely look quite different if a genre with a more storied DIY ethos was used, such as certain subgenres of rock or electronic music. 
+
+In the future, this project could be built upon to examine further developments in record collecting and physical music releases in pop. Currently, it could be used to examine other genres. The workflow I used for separating requests into manageable chunks might be particularly useful for those that are having trouble with Discogs’ limitations on bulk data gathering.
 
