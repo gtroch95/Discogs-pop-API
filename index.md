@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Exploring Pop Music Collecting through Discogs
 ---
 # Exploring Pop Music Collecting through Discogs
 
